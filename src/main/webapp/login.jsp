@@ -30,7 +30,7 @@
             <button type="submit">Login</button>
         </form>
         <div class="login-options">
-            <p>Don't have an account? <a href="#">Sign up</a></p>
+            <p>Don't have an account? <a href="registration.jsp">Sign up</a></p>
             <p><a href="#">Terms and Conditions</a></p>
         </div>
     </div>
