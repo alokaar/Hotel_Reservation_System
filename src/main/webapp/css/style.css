@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* External CSS styles */
+/* External CSS styles */
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body {
+    background-image: url('../images/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+}
+
+.login-container h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.login-container form {
+    display: flex;
+flex-direction: column;
+}
+
+.login-container form label {
+    display: block;
+    margin: 10px 0;
+    margin-bottom:0px;
+    font-weight: bold;
+}
+
+.login-container form input {
+	position: relative;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.forget-password {
+    text-align: right;
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.login-container .remember-me {
+    text-align: left; /* Align text to the left */
+    margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+
+.login-container .remember-me input {
+    margin-right: 5px;
+}
+
+.login-container form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container .social-icons img {
+    width: 16px; /* Adjust the size as needed */
+    margin-right: 10px;
+    text-align: center;
+}
+
+.login-options {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.remember-me{
+	display: inline-flex;
+	flex-direction: row;
+}
+ .remember-me input {
+    width:30px !important;
+}
