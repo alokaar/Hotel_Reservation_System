@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* external.css */
+/* Custom CSS styles for your JSP page */
+
+body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.cus {
+    color: rgb(0, 64, 128);
+}
+
+.table thead th {
+    background-color: #000;
+    color: #fff;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-buttons a {
+    margin-top: 10px;
+}
+
+.action-buttons a.btn-info {
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #007bff;
+}
+
+.action-buttons a.btn-info:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+}
+
+.action-buttons a.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+    border: 1px solid #dc3545;
+}
+
+.action-buttons a.btn-danger:hover {
+    background-color: #c82333;
+    border: 1px solid #c82333;
+}

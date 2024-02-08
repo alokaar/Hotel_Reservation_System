@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* styles.css */
+.button-row {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.event-button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    padding: 20px 40px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.event-button:hover {
+    background-color: #2980b9;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+/* Custom CSS for the teacher dashboard buttons */
+/* Style the container */
+body {
+    background-image: url("../images/services.jpg"); /* Updated path to the image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; /* Note the corrected "center" value */
+    background-color: rgba(0, 123, 255, 0.5); /* Reduce opacity to 0.5 (adjust as needed) */
+}
+
+.container {
+    margin-top: 100px;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Style the headings */
+h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Style the buttons */
+.btn {
+    font-size: 24px;
+    padding: 20px 40px; /* Set the desired padding here to maintain a consistent button size */
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #888888;
+}
+
+/* Apply the same styling to all buttons */
+.btn {
+    background-color: #007BFF;
+    border-color: #007BFF;
+    color: #fff;
+}
+
+/* Adjust hover effect for all buttons */
+.btn:hover {
+    background-color: #0056b3;
+}
+

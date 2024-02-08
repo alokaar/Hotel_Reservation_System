@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* External CSS styles */
+
+/* ... other styles ... */
+
+/* External CSS styles */
+
+body {
+    background-image: url('../images/login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Common style for login and registration containers */
+.login-container,
+.registration-container {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 30px black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 50px auto;box-shadow: 0 0 30px black;
+    width: 300px;
+}
+
+.login-container h1,
+.registration-container h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.login-container form label,
+.registration-container form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.login-container form input,
+.registration-container form input {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 0px;
+}
+
+.login-container form button,
+.registration-container form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+/* Add opacity to the registration container */
+.registration-container {
+    background: rgba(255, 255, 255, 0.5); /* Adjust the opacity as needed */
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #007bff;
+}

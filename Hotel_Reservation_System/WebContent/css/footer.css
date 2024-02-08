@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* Style for the footer container */
+.footer {
+    background-color: rgb(0, 64, 50);
+    color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+/* Style for the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for footer sections */
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+/* Style for the footer headings */
+.footer-section h2 {
+    font-size: 18px;
+}
+
+/* Style for footer links */
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+/* Clear floats */
+.clear {
+    clear: both;
+}
